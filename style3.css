@@ -1,0 +1,261 @@
+.pd-details{
+
+    background-image: url(https://wallup.net/wp-content/uploads/2019/09/951871-forest-trees-nature-landscape-tree.jpg);
+    background-size:cover;
+    height:100%;
+}
+
+
+nav {
+    background-color: #666;
+    color: #fff;
+    padding: 20px;
+    height: 60px;
+    text-align: center;
+    font-family: caveat;
+    font-weight: bold;
+    font-size: 50px;
+    color: orange;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    
+}
+nav .left-menu {
+    float: left;
+}
+nav .right-menu {
+    float: right;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 30px;
+    
+}
+nav a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+h1{
+
+    font-family: caveat;
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+h1 span{
+
+    color:white;
+    font-weight: normal;
+    font-size: 35px;
+}
+
+h1:hover{
+
+    font-size: 50px;
+}
+
+
+
+.contact-container{
+
+    background-image: url(https://wallpaperaccess.com/full/1859586.jpg);
+    background-size: cover;
+    height:100%;
+    width: 100%;
+}
+
+.card1-container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5px;
+
+}
+
+.card1{
+
+    height: 300px;
+    width:400px ;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: black;
+
+}
+
+.card1-data{
+
+    font-family: caveat;
+    font-size: 10px;
+    color: white;
+    padding-top: 20px;
+}
+
+.card1-head{
+
+    font-family: caveat;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 150px;
+    color: black;
+    text-decoration: underline;
+
+}
+
+.card1-h3{
+
+    font-family: caveat;
+    font-size: 30px;
+    padding-left: 10px;
+    
+
+
+}
+
+.card1:hover{
+
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: black;
+    border-radius: 50px;
+
+}
+
+.card1-h4{
+
+    font-family: caveat;
+    font-size: 30px;
+    padding-left: 30px;
+  
+}
+
+button{
+    margin-left: 30px;
+    height: 60px;
+    width: 200px;
+    font-family: caveat;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 25px;
+    border-width: 0px;
+    padding-left: 10px;
+    margin-left: 90px;
+    background: transparent;
+    backdrop-filter: blur(10px);   
+    color: white;
+
+    
+}
+
+button:hover{
+    color: white;
+    background-color:black;
+}
+
+.contact-container2{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.card2{
+
+    height: 200px;
+    width:350px ;
+    margin-left: 210px;
+    border-radius:0px;
+    margin-top: 30px;
+    padding-left: 70px;
+    color: black;
+
+}
+
+.card2-head{
+
+    font-family: caveat;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 35px;
+    color: black;
+    text-decoration: underline;
+    padding-top:10px;
+
+}
+
+.card2-h4{
+
+
+    font-family: caveat;
+    font-size: 20px;
+    padding-left: 50px;
+
+}
+
+.card2:hover{
+
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: black;
+    border-radius: 50px;
+
+}
+
+.card3{
+
+    height: 200px;
+    width:400px ;
+    margin-left: 40px;
+    border-radius:0px;
+    margin-top: 30px;
+    padding-left: 10px;
+    color: black;
+   
+
+}
+
+.card3-head{
+
+    font-family: caveat;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 135px;
+    color: black;
+    text-decoration: underline;
+    padding-top:10px;
+
+
+}
+
+.card3:hover{
+
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: black;
+    border-radius: 50px;
+}
+
+.button1{
+
+    
+    margin-bottom: 30px;
+    height: 60px;
+    width: 200px;
+    font-family: caveat;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 25px;
+    border-width: 0px;
+    padding-left: 10px;
+    margin-left: 100px;
+    background: transparent;
+    backdrop-filter: blur(10px);   
+    color: white;
+
+
+}

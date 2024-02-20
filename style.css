@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Diphylleia&family=Lobster&family=Roboto&family=Rubik+Doodle+Shadow&family=Rubik+Doodle+Triangles&display=swap');
+
+.home{
+
+    /* background-image: url(https://wi.wallpapertip.com/wsimgs/69-691636_best-background-images-for-website-wallpapers-high-good.jpg); */
+    background-size: cover;
+    background-color: rgb(116, 192, 209);
+    height: 100vh;
+    padding: 50px;
+     
+}
+
+.menu-bar{
+
+    height: 80px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    font-family: caveat;
+    margin-top: 0px;
+    
+}
+
+.logo{
+
+    font-size:50px;
+    color: black;
+
+}
+
+.logo::first-letter{
+
+    font-size: 200%;
+    color:rgb(239, 104, 14)
+    
+}
+
+.logo span{
+
+    color:white;
+}
+
+.menu-bar ul{
+
+    list-style: none;
+    display: flex;
+}
+
+.menu-bar ul li{
+
+    padding: 10px 30px;
+    color: white;
+}
+
+.menu-bar ul li a{
+
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.menu-bar ul li a:hover{
+
+    color: black;
+    border-radius: 25px;
+}
+
+h3.c1{
+    
+    font-family: caveat;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 120px;
+    padding-left: 30px;
+
+
+}
+
+.c1 span{
+
+    color:rgb(239, 104, 14);
+}
+
+.name{
+    font-family: caveat;
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-left: 20px;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: black;
+
+}
+
+.name::first-letter{
+
+    font-size: 150%;
+}
+
+.name span{
+    font-family: caveat;
+    font-weight: bold;
+    font-size: 80px;
+    margin-top: 5px; 
+    color:black;
+
+}
+
+.button{
+
+    font-family: caveat;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 20px;
+    border-width:0px;
+    margin-top: 30px;
+    margin-left: 120px;
+    padding:5px;
+
+}
+
+.button:hover{
+
+    background-color:black ;
+    color: white;
+    font-family: caveat;
+    font-weight: bold;
+
+}
+
+.index-container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+
+.image{
+
+    height: 400px;
+    width:700;
+    margin-top: 50px;
+    filter: drop-shadow(16px 7px 8px black);
+    box-shadow: 16px 7px 8px black;
+    
+}
+
+.per-img{
+
+    height: 500px;
+    width: 500px;
+}
+
+.About-container{
+
+    background-image: url(https://i0.wp.com/techbeasts.com/wp-content/uploads/2016/01/nature-wallpapers-hd.jpg);
+    /* background-color: rgb(123, 167, 176); */
+    background-size:cover;
+    height: 100%;
+    padding-left:25px;
+
+}
+
+.description{
+
+    font-family: caveat;
+    font-size: 25px;
+    color: white;
+    margin-top: 50px;
+}
+
+.menu-bar2{
+
+    height: 80px;
+    width:85vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    font-family: caveat;
+    color: black;
+    font-size:40px;
+    padding-top: 15px;
+   
+    
+}
+
+.menu-bar2 ul{
+
+    list-style: none;
+    display: flex;
+}
+
+.menu-bar2 ul li{
+
+    padding: 10px 30px;
+    color: white;
+}
+
+.menu-bar2 ul li a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.menu-bar2 ul li a:hover{
+
+    color: black;
+}

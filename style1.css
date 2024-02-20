@@ -1,0 +1,98 @@
+.education-container{
+
+    background-image: url(https://wallpaperaccess.com/full/1859589.jpg);
+    background-color: black;
+    background-size: cover;
+    height:100vh;
+}
+
+.card-container{
+
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.menu-bar3{
+
+    height: 80px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    font-family: caveat;
+    color: rgb(239, 104, 14);
+    font-size:40px;
+    font-weight: bold;
+    padding-top: 15px;
+    background-color: black;
+    border-radius: 20px;
+    
+}
+
+.menu-bar3 ul{
+
+    list-style: none;
+    display: flex;
+}
+
+.menu-bar3 ul li{
+
+    padding: 10px 30px;
+    
+}
+
+.menu-bar3 ul li a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.menu-bar3 ul li a:hover{
+
+    color: rgb(234, 98, 7);
+}
+
+
+.card1-head{
+    font-size: 50px;
+    font-family: caveat;
+    text-decoration: underline;
+    color: white;
+    padding-left: 10px;
+}
+
+.card-1{
+
+    height: 480px;
+    width:400px ;
+    margin-left: 70px;
+    border-radius:0px;
+    margin-top: 30px;
+    padding-left: 10px;
+    
+}
+
+.card1-data{
+
+    font-family: caveat;
+    font-size: 25px;
+    color:white ;
+    padding-top: 20px;
+}
+
+.card-1:hover{
+
+    transition: all 0s ease-in-out;
+    border-radius: 50px;
+    background: transparent;
+    backdrop-filter: blur(100px);
+}
+
+.card-1:hover.scale{
+
+    transform: scale(1.5,1.5);
+   
+}
